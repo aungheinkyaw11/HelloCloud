@@ -1,0 +1,6 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Resources:
+  LogicalResourceName1:
+    Type: AWS::ServiceName::ResourceType
+    Properties:
+      PropertyName1: PropertyValue1 
