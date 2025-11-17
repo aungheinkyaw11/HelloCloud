@@ -1,6 +1,8 @@
 # Terraform 
 This collection of Terraform labs teaches a complete, practical workflow for using Terraform in multi-account AWS environments.  
-You will learn how to structure Terraform projects, configure providers and aliases for multiple AWS accounts, and use workspaces and `.tfvars` files for environment separation. The labs cover IAM roles and trust relationships (including how to use `sts:AssumeRole` and temporary session tokens), how to fetch and output VPC data from different regions, and how to organize reusable code with Terraform modules (both local and remote/git modules). You will also practice using Terraform commands (`init`, `plan`, `apply`) and learn common troubleshooting steps. By the end, you’ll be able to manage multi-account, multi-environment infrastructure with modular, repeatable Terraform code.
+You will learn how to structure Terraform projects, configure providers and aliases for multiple AWS accounts, and use workspaces and `.tfvars` files for environment separation. 
+
+The labs cover IAM roles and trust relationships (including how to use `sts:AssumeRole` and temporary session tokens), how to fetch and output VPC data from different regions, and how to organize reusable code with Terraform modules (both local and remote/git modules). You will also practice using Terraform commands (`init`, `plan`, `apply`) and learn common troubleshooting steps. 
 
 ---
 
