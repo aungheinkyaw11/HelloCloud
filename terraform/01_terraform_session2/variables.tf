@@ -9,6 +9,6 @@ variable "cloudlab-prod-region" {
 }
 
 variable "cloudlab-master-role-arn" {
-  type = string
+  type    = string
   default = "arn:aws:iam::822961100168:role/cloudlab-master-terraform-role"
 }

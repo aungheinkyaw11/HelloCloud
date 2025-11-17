@@ -13,7 +13,7 @@ variable "cloudlab_vpc_cidr" {
 variable "provider_env_assumed_role" {
   description = "The assumed role for the provider environment"
   type        = map(any)
-  default     = {
+  default = {
     "cloudlab-master" = "arn:aws:iam::822961100168:role/hellocloud-ahk-aws-master-terraform-role"
     "cloudlab-prod"   = "arn:aws:iam::595226768173:role/hellocloud-ahk-aws-prod-terraform-role"
     "cloudlab-dev"    = "arn:aws:iam::254292659128:role/hellocloud-ahk-aws-dev-terraform-role"
