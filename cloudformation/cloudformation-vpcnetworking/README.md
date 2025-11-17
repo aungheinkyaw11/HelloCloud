@@ -3,7 +3,7 @@
 This repository contains sample CloudFormation templates and tutorials to help you get started with AWS Infrastructure as Code (IaC).  
 You will learn how to create, update, and delete AWS resources using CloudFormation YAML templates.
 
----
+
 
 ## Notion Documentation
 
